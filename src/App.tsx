@@ -49,7 +49,7 @@ function App() {
     setFiltro(data)
   }
 
-  const filtrados = !filtro
+  //const filtrados = !filtro
     // ? eventos
     // : eventos.filter((evento) =>
     //   filtro!.toISOString().slice(0, 10) === evento.inicio.toISOString().slice(0, 10)
@@ -60,7 +60,7 @@ function App() {
       <div className={style.App}>
         <div className={style.Coluna}>
           <Card>
-            <Formulario aoSalvar={adicionarEvento} />
+            <Formulario />
           </Card>
           <hr />
           <Card>
