@@ -17,6 +17,8 @@ Ao final vamos ter uma aplicação refatorada, com alta coesão, baixo acoplamen
 - Implementar os principais hooks do Recoil
 - Comparar diferentes soluções de mercado para gestão de estado
 
+![Alt text](image.png)
+
 ## Para rodar o projeto
 
 Execute json-server --watch db.json -p 8080 no terminal.
